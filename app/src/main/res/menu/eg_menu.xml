@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"
+        android:title="share"
+        android:id="@+id/share">
+        <menu>
+            <item
+                android:title="Bluetooth"
+                android:id="@+id/bluetooth"
+                app:showAsAction="never"/>
+            <item
+                android:title="Picasa"
+                android:id="@+id/picasa"
+                app:showAsAction="never"/>
+            <item
+                android:title="Messanging"
+                android:id="@+id/messanging"
+                app:showAsAction="never"/>
+            <item
+                android:title="See all..."
+                android:id="@+id/seeall"
+                app:showAsAction="never"/>
+        </menu>
+
+
+    </item>
+    <item
+        android:icon="@drawable/ic_email"
+        app:showAsAction="ifRoom"
+        android:title="mail"
+        android:id="@+id/mail"/>
+    <item
+        app:showAsAction="never"
+        android:title="nothing"
+        android:id="@+id/nothing"/>
+
+</menu>
